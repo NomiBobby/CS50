@@ -1,0 +1,26 @@
+sort1 uses: bubble sort
+
+How do you know?:
+For sorted datasets, selection sort have to compare each number are the so far the smallest, against all number following. However, bubble sort only need to make one pass through the data set.
+As shown below, sort1 takes less time than sort3. So sort 1 is bubble sort, while sort 3 should be selection sort.
+sorted 50000 - sort1 - 0m5.060s; 0m2.753s; 0m1.737s;
+sorted 50000 - sort2 -  0m4.131s; 0m2.890s;
+sorted 50000 - sort3 -  0m9.447s; 0m8.296s; 0m7.381s
+
+sort2 uses: merge sort
+
+How do you know?:
+Random 50000 - sort1 - 0m16.105s
+Random 50000 - sort2 - 0m2.779s
+Random 50000 - sort3 - 0m8.836s
+Random data set should prompt Big O (upper bound responses from the three sorting algorithms)
+sort2 is taking the shortest amount of time, which means sort2 is using merge sort.
+
+sort3 uses: selection sort
+
+How do you know?:
+For sorted datasets, selection sort have to compare each number are the so far the smallest, against all number following. However, bubble sort only need to make one pass through the data set.
+As shown below, sort1 takes less time than sort3. So sort 1 is bubble sort, while sort 3 should be selection sort.
+sorted 50000 - sort1 - 0m5.060s; 0m2.753s; 0m1.737s;
+sorted 50000 - sort2 -  0m4.131s; 0m2.890s;
+sorted 50000 - sort3 -  0m9.447s; 0m8.296s; 0m7.381s
